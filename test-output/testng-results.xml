@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[City names are taken : [Mumbai, India, New Delhi, India, Bangkok, Thailand, Bengaluru, India, Pune, India, Hyderabad, India, Kolkata, India, Chennai, India, Goa - Dabolim Airport, India, Dubai, United Arab Emirates]]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-08-19T06:51:35 IST" name="Default suite" finished-at="2025-08-19T06:51:44 IST" duration-ms="8912">
+  <suite started-at="2025-08-31T19:41:29 IST" name="Default suite" finished-at="2025-08-31T19:41:35 IST" duration-ms="5942">
     <groups>
     </groups>
-    <test started-at="2025-08-19T06:51:35 IST" name="Default test" finished-at="2025-08-19T06:51:44 IST" duration-ms="8912">
-      <class name="myTests.program.play">
-        <test-method signature="play()[pri:0, instance:myTests.program.play@385c9627]" started-at="2025-08-19T06:51:35 IST" name="play" finished-at="2025-08-19T06:51:44 IST" duration-ms="8875" status="PASS">
+    <test started-at="2025-08-31T19:41:29 IST" name="Default test" finished-at="2025-08-31T19:41:35 IST" duration-ms="5942">
+      <class name="TestFile.HomePageTest">
+        <test-method signature="HomePageTest()[pri:0, instance:TestFile.HomePageTest@145f66e3]" started-at="2025-08-31T19:41:29 IST" name="HomePageTest" finished-at="2025-08-31T19:41:35 IST" duration-ms="5917" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[City names are taken : [Mumbai, India, New Delhi, India, Bangkok, Thailand, Bengaluru, India, Pune, India, Hyderabad, India, Kolkata, India, Chennai, India, Goa - Dabolim Airport, India, Dubai, United Arab Emirates]]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- play -->
-      </class> <!-- myTests.program.play -->
+        </test-method> <!-- HomePageTest -->
+      </class> <!-- TestFile.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
