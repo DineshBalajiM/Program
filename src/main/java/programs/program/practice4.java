@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.TreeSet;
 
 public class practice4 {
 
@@ -131,6 +132,12 @@ public class practice4 {
 				System.out.println(num[i]);
 			}
 		}
+		
+		TreeSet<Integer> set1 = new TreeSet<>();
+		for(int number : num) {
+			set1.add(number);
+		}
+		System.out.println("Set Returns: "+set1);
 	}
 	
 	public static void printTheWordContainsDuplicateCharacter(String str) {
